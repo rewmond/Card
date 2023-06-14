@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacetime</title>
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon"
+        href=https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png />
+    <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- script -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+<div class="col-left">
+    <h1></h1>
+    <div id="card-background">
+        <div id="card">
+            <div id="header-card">
+                <img class="logo" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png " alt="Logo">
+                <input type="text" id="search-input" placeholder="Digite o nome de usuário">
+                
+            </div>
+            <img  id="img-profile" src="" alt="">
+            <div class="userInfo" id="info-card">
+                <div class="info-items">
+                    <img src="./img/followers.svg" alt="Ícone de seguidores">
+                    <p class="info" id="followers">Seguidores</p>
+                </div>
+                <div class="info-items">
+                    <img src="./img/following.svg" alt="Ícone seguindo">
+                    <p class="info" id="following">Seguindo</p>
+                </div>
+                <div class="info-items">
+                    <img src="./img/repository.svg" alt="Ícone de repositórios">
+                    <p class="info" id="repository">Repositórios</p>
+                </div>
+                <div class="info-items">
+                    <img src="./img/company.svg" alt="Ícone de companhia">
+                    <p class="info" id="company">Companhia</p>
+                </div>
+                <div class="info-items">
+                    <img src="./img/location.svg" alt="Ícone de localização">
+                    <p class="info" id="locationUser">Localização</p>
+                </div>
+                
+            </div>
+            <div id="footer-card">
+                <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png " alt="Logo">
+                <p>Spacetime</p>
+            </div>
+            <!-- <div class="col-right">
+                <h2>Customizar Rocketcard</h2>
+                <button class="btn">Gerar PDF</button>
+            </div> -->
+        </div>
+    </div>
+</div>
+</body>
+</html>
